@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Valentin</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="hearts-bg" aria-hidden="true">
+        <span class="heart h1"></span>
+        <span class="heart h2"></span>
+        <span class="heart h3"></span>
+        <span class="heart h4"></span>
+        <span class="heart h5"></span>
+        <span class="sparkle s1"></span>
+        <span class="sparkle s2"></span>
+        <span class="sparkle s3"></span>
+      </div>
+
+      <section class="card" aria-live="polite">
+        <h1 class="title">Vrei sa fii valnetinul meu?</h1>
+        <!-- <p class="subtitle">Te rog spune DA</p> -->
+
+        <div class="buttons" id="buttons">
+          <button class="btn btn-yes" id="yesBtn" type="button">DA</button>
+          <button class="btn btn-no" id="noBtn" type="button">NU</button>
+        </div>
+
+        <div class="result" id="result" hidden>
+          <p class="result-text">Yay! Inimioare pentru tine.</p>
+          <div class="result-media" id="resultMedia"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
